@@ -94,3 +94,9 @@ margin-right: 1350px;
 margin-top: 160px;
 
 }
+
+@media (min-widht: 550px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
